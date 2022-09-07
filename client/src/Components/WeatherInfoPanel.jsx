@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 
 class WeatherInfoPanel extends Component {
 
-    // Differentiates whether user chose to use Celsius or Fahrenheit
+    // Différencie si l'utilisateur a choisi d'utiliser Celsius ou Fahrenheit
     getMetric = () => {
         let metric = localStorage.getItem("tempMetric");
         metric = !!metric ? metric : "";
@@ -29,23 +29,23 @@ class WeatherInfoPanel extends Component {
                     <hr/>
 
                     <section className="current-weather">
-                        <span className="humidity">Humidity: {weatherData.main.humidity}%</span>
-                        <span className="curr-temp">Temp: {weatherData.main.temp}{metricSymbol}</span>
-                        <span className="feels-like">Feels like: {weatherData.main.feels_like}{metricSymbol}</span>
+                        <span className="humidity">Humidité: {weatherData.main.humidity}%</span>
+                        <span className="curr-temp">Température: {weatherData.main.temp}{metricSymbol}</span>
+                        <span className="feels-like">Ressenti: {weatherData.main.feels_like}{metricSymbol}</span>
                     </section>
 
                     <hr/>
 
                     <section className="temps">
-                        <span className="min-temp">Low: {weatherData.main.temp_min}{metricSymbol}</span>
-                        <span className="max-temp">High: {weatherData.main.temp_max}{metricSymbol}</span>
+                        <span className="min-temp">Bas: {weatherData.main.temp_min}{metricSymbol}</span>
+                        <span className="max-temp">Élevé: {weatherData.main.temp_max}{metricSymbol}</span>
                     </section>
                 </section>
             );
         }
         return (
             <section>
-                WeatherInfo!
+                InfosMétéo!
             </section>
         );
     }

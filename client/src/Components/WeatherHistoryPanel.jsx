@@ -9,7 +9,7 @@ class WeatherHistoryPanel extends Component {
         let historyComponents = [];
         let historyList = this.props.history;
 
-        // Listing history of zip code submissions in "most recent" order
+        // Lister l'historique des soumissions de codes postaux dans l'ordre 'le plus récent
         for (let i = historyList.length - 1; i >= 0; i--) {
             let infoCard = this.getInfoListItem(historyList[i]);
             historyComponents.push(infoCard);
