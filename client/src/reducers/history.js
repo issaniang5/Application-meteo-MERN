@@ -4,7 +4,7 @@ let getHistoryFromLocal = () => {
     return JSON.parse(value) || [];
 }
 
-// Maintain a history list of queried weather data of 10
+// Maintain a history list of queried weather data of ten
 let getUpdatedHistory = (history, value) => {
     let updateList = [...history];
     if (updateList.length >= 10) {
