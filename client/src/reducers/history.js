@@ -1,10 +1,10 @@
-// Get initial state from the previously saved data in local storage
+// Obtenez l'état initial à partir des données précédemment enregistrées dans le stockage local.
 let getHistoryFromLocal = () => {
     let value = localStorage.getItem('WeatherHistory')
     return JSON.parse(value) || [];
 }
 
-// Maintain a history list of queried weather data of ten
+// Maintenez une liste historique des dix dernières données météo consultées.
 let getUpdatedHistory = (history, value) => {
     let updateList = [...history];
     if (updateList.length >= 10) {

@@ -1,4 +1,4 @@
-// Default zipcode will be 10001
+// Le code postal par défaut sera 10001
 const zipCode = (state = 10001, action) => {
     switch (action.type) {
         case "SAVE_ZIP":

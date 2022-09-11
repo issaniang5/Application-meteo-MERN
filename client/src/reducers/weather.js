@@ -1,4 +1,4 @@
-// Preloads saved weather data from local storage, if available
+// Précharge les données météo enregistrées à partir du stockage local, si disponibles.
 let getWeatherFromLocal = () => {
     let value = localStorage.getItem('CurrentWeatherData');
     return JSON.parse(value) || "";
