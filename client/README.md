@@ -3,6 +3,10 @@ Ce projet est une application web full-stack construite avec la pile MERN (Mongo
 
 ## Scripts Disponibles
 
+tout d'abord, 
+
+### `create-react-app`
+
 
 Dans le répertoire du projet, vous pouvez exécuter:
 
