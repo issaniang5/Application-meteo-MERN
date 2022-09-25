@@ -1,9 +1,9 @@
 ## Qu'est-ce que c'est ?
 Ceci est une application web MERN que vous pouvez ajouter à votre portfolio et expérimenter.
 
-<img src='https://github.com/issaniang5/Application-meteo-MERN/blob/main/Images/Readme.png' height=600px width=800px></img>
+<img src='https://github.com/issaniang5/Application-meteo-MERN/blob/main/Images/Readme.png' height=500px width=800px></img>
 
-**Weather App** est une application météo qui permet d'obtenir les données météo actuelles en fonction du code postal que vous soumettez via le formulaire.
+# Weather App est une application météo qui permet d'obtenir les données météo actuelles en fonction du code postal que vous soumettez via le formulaire.
 
  Elle se compose de 4 principaux composants
 - l'en-tête en haut
